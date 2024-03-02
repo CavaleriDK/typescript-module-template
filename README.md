@@ -9,7 +9,7 @@ The template uses [Jest](https://jestjs.io/) for unit tests and has a standard c
 
 ## Installation
 
-Clone this repository: `git clone https://github.com/CavaleriDK/typescript-module-template/`
+Clone this repository: `git clone https://github.com/CavaleriDK/typescript-module-template.git`
 
 Or download the repository directly: https://github.com/CavaleriDK/typescript-module-template/archive/refs/heads/master.zip
 
@@ -23,7 +23,7 @@ cd  typescript-module-template && rm -rf .git && npm i
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](issues).
+Feel free to check [issues page](https://github.com/CavaleriDK/typescript-module-template/issues).
 
 ## License
 
