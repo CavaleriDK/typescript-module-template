@@ -1,0 +1,47 @@
+{
+  "name": "typescript-module-template",
+  "version": "1.0.0",
+  "description": "Simple, stripped down template to create new NodeJS modules with Typescript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CavaleriDK/typescript-module-template.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "typescript",
+    "module"
+  ],
+  "author": "Michael Cavaleri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CavaleriDK/typescript-module-template/issues"
+  },
+  "homepage": "https://github.com/CavaleriDK/typescript-module-template/#readme",
+  "devDependencies": {
+    "@types/jest": "29.5.12",
+    "@typescript-eslint/eslint-plugin": "7.0.2",
+    "@typescript-eslint/parser": "7.0.2",
+    "eslint": "8.56.0",
+    "eslint-plugin-jest": "27.9.0",
+    "jest": "29.7.0",
+    "prettier": "3.2.5",
+    "ts-jest": "29.1.2",
+    "typescript": "5.3.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    
+  }
+}
